@@ -27,8 +27,6 @@ static const unsigned char PROGMEM smile16_glcd_bmp[] =
 #define SCR_H 64
 #define SCR_W 128
 
-int faceX = 0;
-
 void setup() {
   Serial.begin(9600);
   display.begin(SSD1306_SWITCHCAPVCC, 0x3C);
